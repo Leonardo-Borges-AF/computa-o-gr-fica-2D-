@@ -21,7 +21,7 @@ let dino = {
 let obstacle1 = {
     image: new Image(),
     x: canvas.width,
-    y: 110, 
+    y: 130, 
     width: 40,
     height: 70,
 }
