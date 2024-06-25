@@ -226,6 +226,7 @@ function update() {
     updateScore()
     speed();
     run();
+    score ++
 }
 
 // Main game loop function
