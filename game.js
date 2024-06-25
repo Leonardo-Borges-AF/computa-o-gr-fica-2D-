@@ -71,7 +71,7 @@ function speed() {
 
 // Function to update obstacles
 function updateObstacles() {
-    let randomObstacle = randomIntFromRange(1,2)
+    let randomObstacle = randomIntFromRange(1,3)
         if (obstacles[obstacles.length - 1].x < canvas.width - randomIntFromRange(10,100)) {
             let obstacle = {
                 image: new Image(),
@@ -87,7 +87,7 @@ function updateObstacles() {
             obstacle.image.src = "images/cactus_2.png";
                 obstacle.width = 80
             }
-            if(randomObstacle === 2){
+            if(randomObstacle === 3){
                 obstacle.image.src = "images/bird.png";
                 obstacle.width = 50
                 obstacle.height = 30
